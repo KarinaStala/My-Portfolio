@@ -337,6 +337,7 @@ section div h2:hover {
     margin: 0 auto;
 }
 
+
 .contact input,
 .contact button,
 .contact textarea {
@@ -350,8 +351,17 @@ section div h2:hover {
     height: 36px;
 }
 
+.contact input:focus {
+border: 4px solid greenyellow;
+font-size: 14px;
+}
+
 .contact textarea {
     height: 120px
+}
+
+.contact textarea:focus {
+ border: 4px solid greenyellow;   
 }
 
 .contact button {
@@ -366,6 +376,10 @@ section div h2:hover {
 .contact button:hover {
     color: greenyellow;
     cursor: pointer;
+}
+
+.contact button:focus {
+    border: 4px solid greenyellow;
 }
 
 .contact .socials {
