@@ -82,7 +82,7 @@ header button:hover {
     border: 10px solid #0e1837;
 }
 
-#portfolio:hover {}
+/* #portfolio:hover {} */
 
 section {
     min-height: 30vh;
@@ -161,7 +161,8 @@ section div h2:hover {
 .portfolio .web img {
     width: 100%;
     height: 40%;
-}
+    display: block;
+    }
 
 .portfolio .about {
     color: white;
