@@ -723,7 +723,7 @@ footer:hover {
     header h1 {
         top: 5%;
         font-size: 22px;
-        left: 10%;
+        left: 14%;
     }
 
     header h2 {
@@ -738,13 +738,6 @@ footer:hover {
         right: 6%;
         padding: 1px 1px;
         line-height: 15px;
-    }
-}
-
-@media (orientation: portrait) and (min-width: 320px) {
-
-    header h1 {
-        left: 14%;
     }
 }
 
@@ -1016,8 +1009,6 @@ footer:hover {
             margin-bottom: 40px;
         }
     }
-
-
 
     @media (orientation: landscape) {
         .slogan p {
